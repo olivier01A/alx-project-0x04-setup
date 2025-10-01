@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Button from "../common/Button";
 import { usePathname } from "next/navigation";
-import { useCount } from "@/context/CountContext"";
+import { useCount } from "@/context/CountContext";
 
 const Header: React.FC = () => {
 
@@ -40,5 +40,3 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-       
-   
